@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shirobhedas Guide</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1 style="color:brown">Shirobhedas Guide</h1>
+    <h2 style="color:darkblue">Nrithya with Lalithya</h2>
+    <h3 style="color:maroon">Shirobhedas</h3>
+    <p style="color: black;">
+      Sama Udvahitam Adhomukha-lolitam Dhutam<br>
+      Kampitam cha Paravrittam Ukshiptam Parivahitam<br>  
+      Navdhakathitam Shirasa Natyashastra Visharadaihi<br>
+    </p>
+  </header>
+
+  <div class="audio-container">
+    <button onclick="playSloka()" class="play-button">🎵 Play Sloka</button>
+  </div>
+
+  <div class="shirobheda-container">
+    <div class="shirobheda-card" onclick="showDetails('sama')">
+      <img src="images/sama.png.jpg" alt="sama">
+      <p>SAMA</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('udvahitham')">
+      <img src="images/udvahitham.png.jpg" alt="udvahitham">
+      <p>UDVAHITHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('adhomukham')">
+      <img src="images/adhomukham.png.jpg" alt="adhomukham">
+      <p>ADHOMUKHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('alolitham')">
+      <img src="images/alolitham.png.jpg" alt="alolitham">
+      <p>ALOLITHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('dhutham')">
+      <img src="images/dhutham.png.jpg" alt="dhutham">
+      <p>DHUTHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('kampitham')">
+      <img src="images/kampitham.png.jpg" alt="kampitham">
+      <p>KAMPITHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('paravrittam')">
+      <img src="images/paravrittam.png.jpg" alt="Paravrittam">
+      <p>PARAVRITTAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('ukshiptham')">
+      <img src="images/ukshiptham.png.jpg" alt="Ukshiptham">
+      <p>UKSHIPTHAM</p>
+    </div>
+    <div class="shirobheda-card" onclick="showDetails('parivahitham')">
+      <img src="images/parivahitham.png.jpg" alt="Parivahitham">
+      <p>PARIVAHITHAM</p>
+    </div>
+  </div>
+
+  <!-- Detail area to show description -->
+  <div id="shirobheda-details"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
